@@ -23,7 +23,7 @@ import '@fontsource/roboto/700.css';
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <SignUp />,
+    element: <SignIn />,
     errorElement: <ErrorPage />,
     loader: rootLoader,
     action: rootAction,
